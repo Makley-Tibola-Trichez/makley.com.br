@@ -1,14 +1,15 @@
-company: Produto próprio · Gestão escolar
+company: Gestão escolar · desafio pessoal
 role: Co-fundador & Desenvolvedor Front-end
 start: 2024-01
-end: null
+end: 2026-02
 location: Remoto · Brasil
 employmentType: proprio
 
 summary: >-
-  Desenvolvimento de um produto de gestão escolar e análise de desempenho de estudantes,
-  junto com outros dois sócios. Responsável pelo front-end e pelas decisões de arquitetura
-  de interface.
+  Plataforma de gestão escolar e análise de desempenho de estudantes, ideia nascida ainda
+  na graduação (TCC) e explorada com dois colegas até fevereiro de 2026. Responsável pelo
+  front-end e pelas decisões de arquitetura de interface. Projeto encerrado — hoje é um
+  case de arquitetura e decisões de produto, não um produto em manutenção.
 
 responsibilities:
   - Definição da arquitetura de front-end e das escolhas de stack do produto.
@@ -21,6 +22,8 @@ achievements:
     label: Sócios fundadores
   - value: "2024"
     label: Início do desenvolvimento
+  - value: "2026"
+    label: Projeto encerrado
 
 technologies:
   - React
