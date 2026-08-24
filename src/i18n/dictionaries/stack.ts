@@ -73,7 +73,6 @@ export function getTechNote(technologyId: string, locale: Locale, fallback: stri
  * narrow additive lookup rather than a change to the `stack` schema.
  */
 const TECH_NAMES_EN: Partial<Record<string, string>> = {
-  html: 'Semantic HTML',
   microsservicos: 'Microservices',
 };
 

@@ -11,74 +11,81 @@ technologies:
   # ------------------------------------------------------------------ front-end
   - { id: react, name: React, category: frontend, core: true, note: 5 anos em produção }
   - { id: typescript, name: TypeScript, category: frontend, core: true, note: Linguagem principal }
-  - { id: nextjs, name: Next.js, category: frontend, core: true }
-  - { id: astro, name: Astro, category: frontend, core: true }
-  - { id: javascript, name: JavaScript, category: frontend, core: true }
-  - { id: vite, name: Vite, category: frontend }
+  - { id: nextjs, name: Next.js, category: frontend }
+  - { id: astro, name: Astro, category: frontend }
+  - { id: javascript, name: JavaScript, category: frontend }
+  - { id: vite, name: Vite, category: frontend, core: true }
   - { id: zustand, name: Zustand, category: frontend, core: true }
   - { id: redux, name: Redux, category: frontend }
   - { id: tanstack-query, name: TanStack Query, category: frontend, core: true }
-  - { id: tanstack-router, name: TanStack Router, category: frontend, core: true }
+  - { id: tanstack-router, name: TanStack Router, category: frontend }
   - { id: react-router, name: React Router, category: frontend, core: true }
   - { id: react-hook-form, name: React Hook Form, category: frontend, core: true }
-  - { id: zod, name: Zod, category: frontend }
+  - { id: zod, name: Zod, category: frontend, core: true }
   - { id: styled-components, name: Styled Components, category: frontend }
-  - { id: emotion, name: Emotion, category: frontend, core: true }
-  - { id: tailwind-css, name: Tailwind CSS, category: frontend }
-  - { id: material-ui, name: Material UI, category: frontend, core: true }
-  - { id: heroui, name: HeroUI, category: frontend, core: true }
-  - { id: html, name: HTML semântico, category: frontend }
-  - { id: css, name: CSS moderno, category: frontend }
+  - { id: emotion, name: Emotion, category: frontend }
+  - { id: tailwind-css, name: Tailwind CSS, category: frontend, core: true }
+  - { id: material-ui, name: Material UI, category: frontend }
+  - { id: heroui, name: HeroUI, category: frontend }
 
   # ------------------------------------------------------------------- back-end
   - { id: python, name: Python, category: backend, core: true, note: APIs e automações no Sicredi }
   - { id: fastapi, name: FastAPI, category: backend, core: true }
   - { id: nodejs, name: Node.js, category: backend, core: true }
   - { id: bun, name: Bun, category: backend }
-  - { id: elysia, name: Elysia, category: backend, core: true }
+  - { id: elysia, name: Elysia, category: backend }
   - { id: golang, name: Go, category: backend }
   - { id: php, name: PHP, category: backend }
   - { id: rest-apis, name: APIs REST, category: backend, core: true }
   - { id: microsservicos, name: Microsserviços, category: backend }
   - { id: rpa, name: RPA, category: backend, note: Automação de rotinas via Playwright }
+  - { id: expressjs, name: Express.js, category: backend }
+  - { id: fastify, name: Fastify, category: backend, core: true }
+  - { id: typescript, name: TypeScript, category: backend, core: true }
+  - { id: zod, name: Zod, category: backend }
+  - { id: typebox, name: TypeBox, category: backend }
+  - { id: drizzle, name: Drizzle, category: backend }
+  - { id: prisma, name: Prisma, category: backend }
 
   # --------------------------------------------------------------------- mobile
   - { id: kotlin, name: Kotlin, category: mobile }
+  - { id: react-native, name: React Native, category: mobile }
+  - { id: flutter, name: Flutter, category: mobile }
 
   # ----------------------------------------------------------- banco de dados
   - { id: postgresql, name: PostgreSQL, category: database, core: true }
   - { id: mysql, name: MySQL, category: database }
-  - { id: databricks, name: Databricks, category: database }
+  - { id: databricks, name: Databricks, category: database, core: true }
   - { id: denodo, name: Denodo, category: database }
 
   # ---------------------------------------------------------------------- cloud
-  - { id: linux, name: Linux, category: cloud }
+  - { id: linux, name: Linux, category: cloud, core: true }
   - { id: vercel, name: Vercel, category: cloud }
 
   # --------------------------------------------------------------------- devops
-  - { id: docker, name: Docker, category: devops }
+  - { id: docker, name: Docker, category: devops, core: true }
   - { id: gitlab-ci, name: GitLab CI/CD, category: devops, core: true }
   - { id: git, name: Git, category: devops, core: true }
-  - { id: prefect, name: Prefect, category: devops, note: Orquestração de pipelines de dados }
-  - { id: cronjob, name: CronJob, category: devops }
-  - { id: uv, name: UV, category: devops, note: Gestão de ambientes Python }
+  - { id: prefect, name: Prefect, category: devops, core: true, note: Orquestração de pipelines de dados }
+  - { id: cronjob, name: CronJob, category: devops, core: true }
+  - { id: uv, name: UV, category: devops, core: true, note: Gestão de ambientes Python }
 
   # ------------------------------------------------------------ testes/qualidade
-  - { id: vitest, name: Vitest, category: testing }
+  - { id: vitest, name: Vitest, category: testing, core: true }
   - { id: jest, name: Jest, category: testing }
-  - { id: cypress, name: Cypress, category: testing, core: true }
-  - { id: testing-library, name: Testing Library, category: testing, core: true }
-  - { id: postman, name: Postman, category: testing }
+  - { id: cypress, name: Cypress, category: testing }
+  - { id: testing-library, name: Testing Library, category: testing }
+  - { id: postman, name: Postman, category: testing, core: true }
 
   # ------------------------------------------------------- observabilidade/produto
-  - { id: sentry, name: Sentry, category: observability }
-  - { id: posthog, name: PostHog, category: observability }
+  - { id: sentry, name: Sentry, category: observability, core: true }
+  - { id: posthog, name: PostHog, category: observability, core: true }
   - { id: clarity, name: Microsoft Clarity, category: observability }
-  - { id: grafana, name: Grafana, category: observability, core: true }
+  - { id: grafana, name: Grafana, category: observability }
 
   # ---------------------------------------------------------------- ferramentas
-  - { id: figma, name: Figma, category: tooling }
-  - { id: jira, name: Jira, category: tooling }
+  - { id: figma, name: Figma, category: tooling, core: true }
+  - { id: jira, name: Jira, category: tooling, core: true }
   - { id: github, name: GitHub, category: tooling, core: true }
   - { id: playwright, name: Playwright, category: tooling, core: true, note: RPA e automação de testes }
 
