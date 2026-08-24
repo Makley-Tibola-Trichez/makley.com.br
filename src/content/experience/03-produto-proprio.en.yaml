@@ -1,11 +1,13 @@
-company: Own product · School management
+company: School management · personal challenge
 role: Co-founder & Front-end Developer
 location: Remote · Brazil
 
 summary: >-
-  Building a school-management and student performance analysis product
-  together with two other partners. Responsible for the front-end and the
-  interface architecture decisions.
+  School-management and student performance analysis platform, an idea born
+  during my undergraduate thesis (TCC) and explored with two classmates until
+  February 2026. Responsible for the front-end and interface architecture
+  decisions. Project closed — now a case study in architecture and product
+  decisions, not a maintained product.
 
 responsibilities:
   - Defining the product's front-end architecture and stack choices.
@@ -18,3 +20,5 @@ achievements:
     label: Founding partners
   - value: "2024"
     label: Development started
+  - value: "2026"
+    label: Project closed

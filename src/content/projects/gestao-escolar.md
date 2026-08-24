@@ -1,6 +1,6 @@
 ---
 title: Plataforma de gestão escolar
-tagline: Produto próprio, em desenvolvimento com dois sócios, para gestão escolar e análise de desempenho de estudantes.
+tagline: Desafio pessoal nascido no TCC — explorado com dois colegas entre 2024 e 2026, hoje um case de arquitetura, não um produto mantido.
 category: produto
 year: 2026
 role: Co-fundador & Desenvolvedor Front-end
@@ -10,9 +10,10 @@ order: 5
 confidential: true
 
 summary: >-
-  Produto em desenvolvimento desde 2024 junto com dois futuros sócios. Foco em dar à
-  escola uma leitura clara do desempenho de cada estudante ao longo do tempo, em vez de
-  boletins isolados por bimestre.
+  Ideia nascida ainda na graduação (TCC), desenvolvida entre 2024 e fevereiro de 2026 junto
+  com dois colegas. Foco em dar à escola uma leitura clara do desempenho de cada estudante
+  ao longo do tempo, em vez de boletins isolados por bimestre. Projeto encerrado — hoje é um
+  desafio enfrentado, não um produto em manutenção.
 
 problem: >-
   Escolas acumulam uma quantidade enorme de dados de avaliação e conseguem extrair muito
@@ -38,9 +39,9 @@ challenges:
     disciplinado e decisões técnicas que não exijam manutenção constante.
 
 results:
-  - value: Em desenvolvimento
-    label: fase atual
-    detail: Produto em construção desde janeiro de 2024
+  - value: Encerrado
+    label: status
+    detail: Desenvolvido entre janeiro de 2024 e fevereiro de 2026
   - value: "3"
     label: sócios fundadores
     detail: Time enxuto, com responsabilidade técnica de front-end sob minha conta
@@ -62,11 +63,13 @@ cover:
 
 ## Status
 
-Projeto em desenvolvimento ativo. Os detalhes de produto, marca e lançamento ainda não são
-públicos — esta página será atualizada conforme o produto avançar.
+Projeto encerrado em fevereiro de 2026. A ideia nasceu no TCC, foi explorada com dois
+colegas por cerca de dois anos e não seguiu como produto mantido — fica registrada aqui
+como case de arquitetura e de decisões de produto.
 
-## Por que estou construindo isso
+## Por que construí isso
 
-É o tipo de problema que me interessa: dado que já existe, mal aproveitado, com impacto
-direto na vida de quem depende dele. E é também a chance de exercitar decisões de produto
-e arquitetura de ponta a ponta, não apenas a camada de interface.
+Era o tipo de problema que me interessava: dado que já existe, mal aproveitado, com impacto
+direto na vida de quem depende dele. Foi também a chance de exercitar decisões de produto
+e arquitetura de ponta a ponta, não apenas a camada de interface — mesmo sem o projeto ter
+virado um produto de mercado.

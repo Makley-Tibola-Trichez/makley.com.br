@@ -3,15 +3,16 @@ title: School management platform
 cover:
   alt: Abstract representation of a school performance tracking dashboard.
 tagline: >-
-  Own product, in development with two partners, for school management and
-  student performance analysis.
+  A challenge born from my undergraduate thesis (TCC), explored with two classmates
+  between 2024 and 2026 — now a case study, not a maintained product.
 
 role: Co-founder & Front-end Developer
 
 summary: >-
-  Product in development since 2024 together with two future partners. Focused on giving
-  schools a clear read on each student's performance over time, instead of isolated
-  bimonthly report cards.
+  An idea born during my undergraduate thesis (TCC), developed between 2024 and February
+  2026 together with two classmates. Focused on giving schools a clear read on each
+  student's performance over time, instead of isolated bimonthly report cards. Project
+  closed — now a challenge I faced, not a maintained product.
 
 context: Own project
 
@@ -38,9 +39,9 @@ challenges:
     technical decisions that don't require constant upkeep.
 
 results:
-  - value: In development
-    label: current phase
-    detail: Product under construction since January 2024
+  - value: Closed
+    label: status
+    detail: Developed between January 2024 and February 2026
   - value: "3"
     label: founding partners
     detail: Small team, with front-end technical ownership on my side

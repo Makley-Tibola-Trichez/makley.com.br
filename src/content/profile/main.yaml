@@ -35,8 +35,9 @@ bio:
     pesquisa sobre a viabilidade de executar grandes modelos de IA diretamente em
     dispositivos móveis. Hoje atuo como desenvolvedor de sistemas na Sicredi Aliança,
     construindo APIs em Python/FastAPI e automatizando rotinas via API e RPA para reduzir
-    trabalho manual dos setores da sede — em paralelo a um produto próprio de gestão
-    escolar que estou construindo com dois sócios.
+    trabalho manual dos setores da sede. Também enfrentei, com dois colegas de curso, o
+    desafio de construir uma plataforma de gestão escolar — ideia nascida no TCC,
+    encerrada em fevereiro de 2026.
 
 location: Marau, Rio Grande do Sul, Brasil
 locality: Marau
@@ -94,7 +95,6 @@ goals:
   - >-
     Aprofundar DevOps na prática — CI/CD, observabilidade e infraestrutura como código —
     a partir do que já uso hoje na Sicredi Aliança (Grafana, Prefect, GitLab CI).
-  - Levar meu produto próprio de gestão escolar ao mercado.
 
 languages:
   - name: Português

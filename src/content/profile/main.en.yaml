@@ -33,8 +33,10 @@ bio:
     where I researched the feasibility of running large AI models directly
     on mobile devices. I currently work as a systems developer at Sicredi
     Aliança, building APIs in Python/FastAPI and automating workflows via
-    API and RPA to reduce manual work across headquarters departments —
-    alongside a school-management product I'm building with two partners.
+    API and RPA to reduce manual work across headquarters departments. I
+    also took on, with two classmates, the challenge of building a
+    school-management platform — an idea born in my undergraduate thesis
+    (TCC), closed in February 2026.
 
 location: Marau, Rio Grande do Sul, Brazil
 
@@ -85,7 +87,6 @@ goals:
     Deepen hands-on DevOps — CI/CD, observability and infrastructure as
     code — building on what I already use at Sicredi Aliança (Grafana,
     Prefect, GitLab CI).
-  - Bring my own school-management product to market.
 
 languages:
   - name: Portuguese
