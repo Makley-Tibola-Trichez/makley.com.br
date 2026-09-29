@@ -33,6 +33,7 @@ export const educationDictionary: Record<Locale, EducationDictionary> = {
  */
 const EDUCATION_KIND_LABELS_EN: Record<EducationKind, string> = {
   graduacao: 'Degree',
+  'pos-graduacao': 'Postgraduate',
   certificacao: 'Certification',
   curso: 'Course',
   evento: 'Event',

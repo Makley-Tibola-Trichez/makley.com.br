@@ -57,7 +57,7 @@ export function getTechCategoryLabel(category: TechCategory, locale: Locale, fal
 const TECH_NOTES_EN: Partial<Record<string, string>> = {
   react: '5 years in production',
   typescript: 'Primary language',
-  python: 'APIs and automation at Sicredi',
+  python: 'APIs and automation at Sicredi Aliança',
   playwright: 'RPA and test automation',
 };
 
