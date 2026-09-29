@@ -53,8 +53,8 @@ const jsonLd = buildGraph([
   buildBreadcrumbNode(breadcrumbs),
 ]);
 
-const degree = education.filter((item) => item.kind === 'graduacao');
-const credentials = education.filter((item) => item.kind !== 'graduacao');
+const degree = education.filter((item) => item.kind === 'graduacao' || item.kind === 'pos-graduacao');
+const credentials = education.filter((item) => item.kind !== 'graduacao' && item.kind !== 'pos-graduacao');
 
 const description = t.pageDescriptionTemplate
   .replace('{name}', profile.name)

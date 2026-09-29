@@ -29,7 +29,7 @@ technologies:
   - { id: heroui, name: HeroUI, category: frontend }
 
   # ------------------------------------------------------------------- back-end
-  - { id: python, name: Python, category: backend, core: true, note: APIs e automações no Sicredi }
+  - { id: python, name: Python, category: backend, core: true, note: APIs e automações no Sicredi Aliança }
   - { id: fastapi, name: FastAPI, category: backend, core: true }
   - { id: nodejs, name: Node.js, category: backend, core: true }
   - { id: bun, name: Bun, category: backend }

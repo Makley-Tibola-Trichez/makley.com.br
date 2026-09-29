@@ -11,7 +11,9 @@ export function toEducation(id: string, data: CollectionEntry<'education'>['data
     start: data.start,
     // A credential without an explicit end is a point in time, not an ongoing
     // period — collapsing it here keeps `Education.isPointInTime` honest.
-    end: data.end ?? data.start,
+    // `inProgress` opts a genuinely ongoing entry (e.g. a running
+    // postgraduate program) out of that collapse.
+    end: data.end ?? (data.inProgress ? null : data.start),
     field: data.field,
     description: data.description,
     highlights: data.highlights,

@@ -9,6 +9,7 @@ import { Slug } from '../shared/value-objects/slug.vo';
  */
 export const EDUCATION_KINDS = [
   'graduacao',
+  'pos-graduacao',
   'certificacao',
   'curso',
   'evento',
@@ -19,6 +20,7 @@ export type EducationKind = (typeof EDUCATION_KINDS)[number];
 
 export const EDUCATION_KIND_LABELS: Record<EducationKind, string> = {
   graduacao: 'Graduação',
+  'pos-graduacao': 'Pós-graduação',
   certificacao: 'Certificação',
   curso: 'Curso',
   evento: 'Evento',

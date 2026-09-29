@@ -1,0 +1,18 @@
+institution: FIAP
+credential: Pós-graduação em DevOps e Arquitetura Cloud (Pós Tech)
+kind: pos-graduacao
+start: 2026-09
+end: null
+inProgress: true
+field: DevOps e Arquitetura Cloud
+credentialUrl: https://postech.fiap.com.br/curso/devops-e-arquitetura-cloud
+
+description: >-
+  Pós Tech FIAP+Alura de 360 horas em 10 meses, 100% digital e hands-on, com
+  metodologia Project Based Learning: cada fase resolve um problema real de
+  mercado através de um projeto prático. Conclusão prevista para maio de 2027.
+
+highlights:
+  - Trilha de 5 fases em PBL, da cultura DevOps e arquitetura cloud até multicloud, SRE e FinOps.
+  - Containerização e orquestração com Docker e Kubernetes, infraestrutura como código e pipelines de CI/CD.
+  - DevSecOps, observabilidade (monitoramento, logging, APM) e automação de resposta a incidentes.

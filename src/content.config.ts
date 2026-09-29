@@ -305,6 +305,10 @@ const education = defineCollection({
     description: z.string().optional(),
     highlights: z.array(z.string()).default([]),
     credentialUrl: z.string().url().optional(),
+    // Without this, an entry with no `end` collapses to a point in time (see
+    // the mapper) — set `true` for a multi-month credential still running
+    // (e.g. an ongoing postgraduate program).
+    inProgress: z.boolean().default(false),
     draft: z.boolean().default(false),
   }),
 });

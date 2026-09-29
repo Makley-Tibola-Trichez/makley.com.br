@@ -11,13 +11,19 @@ responsibilities:
   - Building APIs with Python and FastAPI to integrate internal systems.
   - Automating operational workflows via API and RPA (Playwright) to eliminate manual work in headquarters departments.
   - Building data pipelines and orchestrating jobs with Prefect and CronJob.
-  - Integrating and querying corporate data via Databricks and Denodo, persisted in PostgreSQL.
+  - Integrating and querying corporate data via Databricks and Denodo, persisted in PostgreSQL, plus generating datasets for automations and BI.
   - Observability of systems and automations with Grafana.
   - Designing microservice-based solutions, managing Python environments with UV.
+  - Building microservices, APIs, and RPA automations also in TypeScript and DevConsole.
+  - Driving the team's technical evolution, introducing patterns such as DDD, Onion Architecture, SOLID, and development best practices.
+  - Structuring Git and CI/CD practices, including a migration from Git Submodules to a Monorepo.
+  - Implementing HashiCorp Vault for secure credential management and contributing to a centralized authentication service.
+  - Building Grafana dashboards to monitor automation runs and errors.
 
 technologies:
   - Python
   - FastAPI
+  - TypeScript
   - Playwright
   - PostgreSQL
   - Databricks
@@ -28,3 +34,6 @@ technologies:
   - Microservices
   - UV
   - Git
+  - CI/CD
+  - HashiCorp Vault
+  - DevConsole

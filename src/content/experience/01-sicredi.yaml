@@ -1,5 +1,5 @@
-company: Sicredi
-companyUrl: https://www.sicredi.com.br
+company: Sicredi Aliança
+companyUrl: https://www.sicredi.com.br/coop/aliancarssces/
 role: Desenvolvedor de Sistemas
 start: 2025-10
 end: null
@@ -15,15 +15,21 @@ responsibilities:
   - Desenvolvimento de APIs com Python e FastAPI para integração entre sistemas internos.
   - Automação de rotinas operacionais via API e RPA (Playwright) para eliminar trabalho manual de setores da sede.
   - Construção de pipelines de dados e orquestração de jobs com Prefect e CronJob.
-  - Integração e consulta a dados corporativos via Databricks e Denodo, com persistência em PostgreSQL.
+  - Integração e consulta a dados corporativos via Databricks e Denodo, com persistência em PostgreSQL, além de geração de bases para automações e BI.
   - Observabilidade de sistemas e automações com Grafana.
   - Arquitetura de soluções em microsserviços, com gestão de ambientes Python via UV.
+  - Desenvolvimento de microsserviços, APIs e automações RPA também em TypeScript e DevConsole.
+  - Evolução tecnológica da área, introduzindo padrões como DDD, Onion Architecture, SOLID e boas práticas de desenvolvimento.
+  - Estruturação do uso de Git e CI/CD, incluindo migração de Git Submodules para Monorepo.
+  - Implementação do HashiCorp Vault para gerenciamento seguro de credenciais e criação de um serviço centralizado de autenticação.
+  - Criação de dashboards no Grafana para monitoramento das execuções e erros das automações.
 
 achievements: []
 
 technologies:
   - Python
   - FastAPI
+  - TypeScript
   - Playwright
   - PostgreSQL
   - Databricks
@@ -34,3 +40,6 @@ technologies:
   - Microsserviços
   - UV
   - Git
+  - CI/CD
+  - HashiCorp Vault
+  - DevConsole
