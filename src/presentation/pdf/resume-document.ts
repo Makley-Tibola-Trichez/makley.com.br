@@ -339,8 +339,8 @@ export function buildResumeDocument(data: ResumeData) {
   const { profile, experiences, education, techGroups, locale } = data;
   const text = PDF_TEXT[locale];
 
-  const degree = education.filter((item) => item.kind === 'graduacao');
-  const credentials = education.filter((item) => item.kind !== 'graduacao');
+  const degree = education.filter((item) => item.kind === 'graduacao' || item.kind === 'pos-graduacao');
+  const credentials = education.filter((item) => item.kind !== 'graduacao' && item.kind !== 'pos-graduacao');
 
   const contactParts: string[] = [profile.email, profile.location];
   const linkedin = profile.social('linkedin');

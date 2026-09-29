@@ -19,10 +19,10 @@ interface Props {
 const { education } = Astro.props as Props;
 
 const primary = education.filter(
-  (item) => item.kind === 'graduacao' || item.kind === 'publicacao',
+  (item) => item.kind === 'graduacao' || item.kind === 'pos-graduacao' || item.kind === 'publicacao',
 );
 const secondary = education.filter(
-  (item) => item.kind !== 'graduacao' && item.kind !== 'publicacao',
+  (item) => item.kind !== 'graduacao' && item.kind !== 'pos-graduacao' && item.kind !== 'publicacao',
 );
 
 const locale = resolveLocale(Astro.currentLocale);
